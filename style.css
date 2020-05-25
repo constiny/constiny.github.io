@@ -1,0 +1,21 @@
+
+h1{
+    background-color: aqua;
+    border: 3px solid;
+    padding: 20px;
+    font-size: 54px;
+    font-family: cursive;
+
+}
+
+p{
+    background-color: orange;
+}
+
+div{
+    color: red;
+}
+
+img{
+    width: 800px;
+}
