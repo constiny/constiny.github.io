@@ -1,21 +1,54 @@
+html { 
+    background: url(img/background.png) no-repeat center right fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
 
 h1{
-    background-color: aqua;
-    border: 3px solid;
-    padding: 20px;
-    font-size: 54px;
-    font-family: cursive;
-
+    background-color: #fffced;
+    /* border: 3px solid; */
+    padding-left: 20px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    font-size: 30px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    justify-content: center;
+    width: 780px;
 }
 
-p{
-    background-color: orange;
+
+div.seperator p{
+    background-color: #fffced;
+    padding: 60px;
+    padding-left: 200px;
+    font-size: 24px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    align-items: center;
+    width: 540px;
 }
 
-div{
-    color: red;
+div h4{
+    /* padding-top: 20px; */
+    font-size: 16px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    width: 800px;
 }
 
-img{
+div img{
+    width: 200px;
+    padding-top: 10px;
+    padding-right: 30px;
+    overflow: auto;
+    float: left;
+    /* clear: left; */
+}
+
+div p{
+    background-color: #fffced;
+    font-size: 14px;
+    line-height: 1.4;
+    font-family: "Comic Sans MS", cursive, sans-serif;
     width: 800px;
 }

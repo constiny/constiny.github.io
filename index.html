@@ -1,33 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>My Portfolio</title>
+        <title>Vince Pan Portfolio</title>
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <h1>Vince's Data Science Portfolio</h1>
-        
-        
-        <p><strong>Here's what I've done so far</strong></p>
-        
-        
-        
-        <div>
-            <div>
-                This is a inner div.
-                <a href="https://google.com">Let's go to Google</a>
-                <a href="https://constiny.github.io">Let's go to Vince's world.</a>
-            </div>
-        </div>
-        <ul>
-            <li>Soccer</li>
-            <li>Data Science</li>
-        </ul>
+        <h1>Welcome the Data Science World of Vince Pan</h1>
+        <hr>
+        <div  class="seperator">
+            <p><strong>------  See what I've done  ------</strong></p>
+        </div>    
+        <br>
 
-        <ol>
-            <li>1st thing</li>
-            <li>last thing</li>
-        </ol>
-        <img src="https://www.dataquest.io/wp-content/uploads/2019/05/what-is-data-science.jpg">
+        <div class="LTV">
+            <h4>Project: Analysis on Customer Lifetime Value</h4>
+            <a href="https://github.com/constiny/LTV"> click here for detail </a>
+            <br>
+            <br>
+            <img src="img/CLTV.png" ALIGN=”right”>
+            <p>Background: A question is often asked when I was helping the marketing team developing stategy, which is HOW MUCH CAN I VALUE A CUSTOMER. The amount customer brought in the past does not imply they will have the exact the same in the future. We need to know when will they buy and how much they will buy.</p>
+            <p>Project Content: An ensemble probabilistic model(CLTV) could handle this problem very well which not only able to predict how much a customer will buy in the any future periods but also the probability he or she will buy in a time range. Also, by comparing with classical machine learning methods, random forest, OLS and SVM, the CLTV model has the best performance in prediction RMSE. </p>
+            <p>Tools: Python(PySpark, Lifetime, SKlearn-linear regression, random forest, support vector machine), Spark, SQL</p>
+        </div>
+        <br>
+        <br>
+
+        
+
+        <div class="COVID">
+            <h4>Project: Local tracker of COVID 19</h4>
+            <a href="https://github.com/constiny/COVID19"> click here for detail </a>
+            <br>
+            <br>
+            <img src="https://github.com/constiny/COVID19/raw/master/img/LA_2.png">
+            <p>Background: The movotivation of this local COVID19 tracker came from early March 2020 the situation people kept ignoring the threat of the coronavirus. I, as data scientist, believe I should remind people how COVID19 was kept growing rapidly. </p>
+            <p>Project Content: Web-scraped the lastest figures from daily press releases of LA pubilc health department. After that, I created an interactive map showing the density and trend of local communities.  By the local community map, I want to provide revalent information and wake people from getting numb with the large numbers. </p>
+            <p>Tools: Python(BeatifulSoup, Folium, Altair), AWS EC2</p>
+        </div>
+        <br>
+
+        <p>For more information, please contact me: wensi.pan@gmail.com</p>
+        
     </body>
 </html>
